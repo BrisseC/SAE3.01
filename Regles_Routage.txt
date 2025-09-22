@@ -1,0 +1,13 @@
+100 mil (millième d'inch) <==> 2.54 mm (ou 1 pas) 
+
+Résistance et condensateur : pastille ronde à 100 mil et trou de perçage à 32 mil
+Cirsuit Intégré (CI) et transistor: pasille en (120 mil * 80 mil) et trou de perçage à 32 mil
+Potentiomètre : pastille ronde à 120 mil et trou de perçage à 47 mil
+Connecteur SMA vertical : pastille en 110 mil et trou de perçage en 59 mil
+Autres composants [par défaut] : pastille au moins en 80 mil et trou de perçage à 32 mil
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! Si doute, regarder le datasheet du composant !!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Taille des pistes à 30 mil minimum.
+
