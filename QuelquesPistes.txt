@@ -1,0 +1,26 @@
+== ESP8266 ==
+1. Environnment de programmation:
+IDE Arduino.
+Suivre les instructions du lien suivant pour la carte Adafruit Feather HUZZAH. Ne pas installer de driver.
+Par contre rajouter le "s" à http pour que le lien fonctionne !
+https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide
+https://learn.adafruit.com/adafruit-feather-huzzah-esp8266
+
+2.MQTT:
+perso, j'utilise la bibliothèque "PubSubClient" de Nick O'LEARY dans l'IDE Arduino.
+N'hésitez pas à prendre l'exemple dans Pubsubclient: "mqtt_esp8266", vous aurez une bonne base ;-)
+
+
+== ANDROID ==
+je vous conseille APP INVENTOR d'autant plus qu'un site propose la bibliothèque/extension MQTT avec 2 exemples dont un qui répond à au moins 50% de votre projet !
+
+
+== Capteur de température DS18B20 ==
+il existe de nombreux sites avec exemples de programmes et câblage.
+Soyez tout de même attentif lors du câblage entre la vue de dessus ou du dessous ! Cette erreur crée une inversion d'alimentation... Si le capteur chauffe, décabler !
+
+
+== Schéma bouton poussoir ==
+Les 2 rectangles bleus hachurés correspondent à la partie blanche physique du BP.
+Le schéma en rouge correspond au "cablage" interne.
+Le Vcc est le 3.3V (marqué 3V sur les cartes). NE SURTOUT PAS METTRE SUR LE 5V !!!
