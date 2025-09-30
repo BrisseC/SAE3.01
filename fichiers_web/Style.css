@@ -1,23 +1,33 @@
 body{
-    background: ;
-
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 /*****/
 h1{
-
+    color: darkred;
 }
 header{
-
+    background: #f57857;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
 }
 /*****/
 h2{
-
+    color: black;
+}
+/* en survole grossisement et gros */
+h2.hover{
+    font-style: italic;
 }
 p{
-
+    color: black;
 }
 main{
-
+    width: 100vw;
+    height: 80vh;
 }
 article{
 
@@ -27,8 +37,10 @@ section{
 }
 /*****/
 h3{
-
+    color: darkred;
 }
 footer{
-
+    background: #f59558;
+    width: 100vw;
+    height: 10vh;
 }
